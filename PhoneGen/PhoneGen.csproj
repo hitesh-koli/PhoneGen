@@ -46,6 +46,10 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AppLogic\PhoneNumberGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppLogic\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
